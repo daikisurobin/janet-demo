@@ -1,17 +1,19 @@
-# Janet AI - Checkout Page Fix
+# Auto Dash
 
-## Project Overview
-This project contains fixes for the checkout page UX issues
-tracked in Janet AI.
+A self-contained browser game: drive a yellow-and-green Indian auto-rickshaw and dodge highway traffic.
 
-## Tickets Being Fixed
-- MFP-29: Checkout page loading issue
-- MFP-27: Fix checkout page loading delay on slow networks
+## Play
 
-## Changes Made
-- Optimized checkout page load time
-- Fixed loading delay on slow networks
-- Improved UX flow for better conversion
+Open `index.html` in any modern browser. No build step, no dependencies.
 
-## Status
-All tickets reviewed and merged via Janet AI automation.# janet-demo
+## Controls
+
+- **Desktop:** Arrow keys or A/D to change lanes · Space to start / restart
+- **Mobile:** Tap left half of the screen to go left, right half to go right · Tap to start / restart
+
+## Features
+
+- 3-lane scrolling highway with flat-design canvas vehicles
+- Smooth lane-glide movement and rising difficulty
+- Score (distance) + persistent high score
+- Portrait-friendly 400×700 canvas that scales to the window
